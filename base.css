@@ -103,3 +103,72 @@ li:hover {
     color: white;
     background-color: blue;
 }
+
+/*Css para a pagina about.html*/
+.content {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content h1{
+    text-align: left;
+    color: #444444;
+    font-size: 25px;
+}
+.content p {
+    text-align: left;
+    color: #444444;
+    font-size: 14px;
+    margin: 0px 0;
+}
+.content h2 {
+    text-align: left;
+    color: #444444;
+    font-size: 22px;
+    margin: 0px 0;
+}
+.content h3 {
+    text-align: left;
+    color: #444444;
+    font-size: 20px;
+    margin: 0px 0;
+}
+.esquerda {
+    width: calc(100% + 20px);
+    float: left;
+    margin-left: -20px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #1a0d8c;
+}
+.foto-clinica {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    align-self: start;
+}
+/*
+.topo {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topo h1 {
+    text-align: left;
+    color: #444444;
+    font-size: 25px;
+    margin: 0px 0;
+    padding: 0px;
+}
+.topo p {
+    text-align: left;
+    color: #444444;
+    font-size: 14px;
+    margin: 0px 0;
+}
+*/
